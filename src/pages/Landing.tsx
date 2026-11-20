@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const HeroCanvas = lazy(() => import('../components/Scene').then((m) => ({ default: m.HeroCanvas })))
 // Cambiá esta URL por la de tu repositorio.
-const REPO = 'https://github.com/'
+const REPO = 'https://github.com/josemarioarias12/vectorsearch'
 
 const steps = [
   ['Texto', 'Cada documento se limpia: minúsculas, sin tildes ni palabras vacías como “el” o “en”.'],
